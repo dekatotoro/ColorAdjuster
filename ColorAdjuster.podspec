@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "ikemai" => "ikeda_mai@cyberagent.co.jp" }
   s.platform     = :ios, "8.0"
+  s.tvos.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/ikemai/ColorAdjuster.git", :tag => s.version.to_s }
   s.source_files  = "ColorAdjuster/**/*.{h,swift}"
   s.requires_arc = true
